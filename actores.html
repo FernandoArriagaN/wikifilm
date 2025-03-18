@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>WikiFilm</title>
+    <link rel="stylesheet" href="styles/styles.css">
+    <script src="https://cdn.jsdelivr.net/npm/axios/dist/axios.min.js"></script>
+</head>
+<body>
+    <header>
+        <a class="logo" href="index.html">
+            <img class="logo-wikifilm" src="img/wikifilm.png" alt="logo-wikifilm" id="logo-wikifilm"/>
+        </a>
+        <h1>Actores/Directores</h1>
+        <nav class="menu-container">    
+            <div>
+                <img class="menu-icon" alt="menu-icon" src="/img/menublan.svg" id="menu-icon"> 
+            </div> 
+        </nav>
+
+
+    </header>
+
+    <aside class="menu-oculto" id="menu-oculto">
+        <nav class="men-list">
+            <a href="index.html">Home</a>
+            <a href="genere.html">Genero</a>
+        </nav>
+    </aside>
+
+    <main>
+        <article class="serch-containter">
+            <input type="text" id="actor-search" placeholder="Buscar Actor" />
+            <button id="actor-button">Buscar</button>
+        </article>
+        <article class="actor-grid" id="actor-grid">
+
+        </article>
+    </main>
+
+    <footer>
+        <p> <small>©Derechos reservados</small></p>
+    </footer>
+
+    <script src="js/main.js"></script>
+</body>
+</html>
